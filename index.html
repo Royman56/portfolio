@@ -18,7 +18,8 @@
 </style>
 
 <body>
-  <header>
+  <div class="container">
+  <header class="header">
     <div class="site-logo">
       <img src="images/logo.png" alt="logo" width="22%">
     </div>
@@ -36,34 +37,41 @@
     
     
     <h1 class="title-three stroke-shadow" id="second-page">SOBRE MI</h1>
-    <h1 class="text-2">Soy un desarrollador y diseñador </br> de páginas webs y aplicaciones </br> para android especializado </br> en el uso de FrontEnd y Backend </br> con amplios conocimientos de UI y UX utilizando y reconociendo diferentes </br> frameworks como Bootstrap y React</h1>
-    <div class="card-container">
-      <img class="round" src="images/royman.jpg" alt="user" />
-      <h2>Royman Añez</h2>
-      <h3 class="city">Bogotá</h3>
-      <p class="descriptionpro">Diseñador de interfaz de usuario <br/>y desarrollador front-end </p>
-      <div class="buttons">
-        <button id="breathing-button" role="link"  onclick="window.location='mailto: royman21mejias@gmail.com'" class="primary">
-          Gmail
-        </button>
-        <button id="breathing-button" role="link"  onclick="window.location='https://api.whatsapp.com/send?phone=573222534986&text=Hola%20me%20gustaria%20saber%20mas%20informacion%20...'" class="primary ghost">
-          Contacto
-        </button>
-      </div>
-      <div class="skills">
-        <h2>Skills</h2>
-      </br>
-        <ul>
-          <li>UI / UX</li>
-          <li>Front End Development</li>
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>JavaScript</li>
-          <li>React</li>
-          <li>Node</li>
-        </ul>
-      </div>
-    </div>
+
+    <ul class="cards-user">
+      <li>
+        <div class="card-container">
+          <img class="round" src="images/royman.jpg" alt="user" />
+          <h2>Royman Añez</h2>
+          <h3 class="city">Bogotá</h3>
+          <p class="descriptionpro">Diseñador de interfaz de usuario <br/>y desarrollador front-end </p>
+          <div class="buttons">
+            <button id="breathing-button" role="link"  onclick="window.location='mailto: royman21mejias@gmail.com'" class="primary">
+              Gmail
+            </button>
+            <button id="breathing-button" role="link"  onclick="window.location='https://api.whatsapp.com/send?phone=573222534986&text=Hola%20me%20gustaria%20saber%20mas%20informacion%20...'" class="primary ghost">
+              Contacto
+            </button>
+          </div>
+          <div class="skills">
+            <h2>Skills</h2>
+          </br>
+            <ul>
+              <li>UI / UX</li>
+              <li>Front End Development</li>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+              <li>React</li>
+              <li>Node</li>
+            </ul>
+          </div>
+        </div>
+      </li>
+
+      <h4 class="text-2">Soy un desarrollador y diseñador </br> de páginas webs y aplicaciones </br> para android especializado en el uso </br> de FrontEnd y Backend con amplios </br> conocimientos de UI y UX utilizando </br> y reconociendo diferentes frameworks </br> como Bootstrap y React</h4>
+
+    </ul>
 
     <article></article>
 
@@ -87,6 +95,61 @@
           </div>
         </a>
       </li>
+
+      <li>
+        <a href="https://royman56.github.io/persky_definity/" class="card">
+          <img src="images/persky.png" class="card__image" alt="" />
+          <div class="card__overlay">
+            <div class="card__header">
+              <svg class="card__arc" xmlns="http://www.w3.org/2000/svg">
+                <path />
+              </svg>
+              <img class="card__thumb" src="images/persky.png" alt="" />
+              <div class="card__header-text">
+                <h3 class="card__title">PERSKY</h3>
+              </div>
+            </div>
+            <p class="card__description">Ecommerce desarrollado con React JS conectado a la API de Whatssap</p>
+          </div>
+        </a>
+      </li>
+
+      <li>
+        <a href="https://royman56.github.io/game_tetris/" class="card">
+          <img src="images/tetris.jpg" class="card__image" alt="" />
+          <div class="card__overlay">
+            <div class="card__header">
+              <svg class="card__arc" xmlns="http://www.w3.org/2000/svg">
+                <path />
+              </svg>
+              <img class="card__thumb" src="images/tetris.jpg" alt="" />
+              <div class="card__header-text">
+                <h3 class="card__title">TETRIS</h3>
+              </div>
+            </div>
+            <p class="card__description">Juego desarrollado con JavaScript HTML y CSS</p>
+          </div>
+        </a>
+      </li>
+
+      <li>
+        <a href="https://royman56.github.io/juego_js/" class="card">
+          <img src="images/ahorcado.jpg" class="card__image" alt="" />
+          <div class="card__overlay">
+            <div class="card__header">
+              <svg class="card__arc" xmlns="http://www.w3.org/2000/svg">
+                <path />
+              </svg>
+              <img class="card__thumb" src="images/ahorcado.jpg" alt="" />
+              <div class="card__header-text">
+                <h3 class="card__title">JUEGO DEL AHORCADO</h3>
+              </div>
+            </div>
+            <p class="card__description">Juego desarrollado con JavaScript HTML y CSS</p>
+          </div>
+        </a>
+      </li>
+
       <li>
         <a href="https://play.google.com/store/apps/details?id=com.vitzi.topups" class="card">
           <img src="images/diprepay1.png" class="card__image" alt="" />
@@ -105,24 +168,6 @@
         </a>
       </li>
 
-      <li>
-        <a href="https://www.todoservy.com/" class="card">
-          <img src="images/todoservy.jfif" class="card__image" alt="" />
-          <div class="card__overlay">
-            <div class="card__header">
-              <svg class="card__arc" xmlns="http://www.w3.org/2000/svg">
-                <path />
-              </svg>
-              <img class="card__thumb" src="images/todoservy.jfif" alt="" />
-              <div class="card__header-text">
-                <h3 class="card__title">TODOSERVY</h3>
-              </div>
-            </div>
-            <p class="card__description">Aplicación desarrollada con el lenguaje Kotlin que hace uso de Frotend y Backend</p>
-          </div>
-        </a>
-      </li>
-
     </ul>
   
   </main>
@@ -131,7 +176,7 @@
       <div class="footer-custom" id="four-page">
         <div class="footer-lists">
           <div class="footer-list-wrap">
-            <h6 class="ftr-hdr">CONTACTO</h6>
+            <h6 class="ftr-hdr">TELEFONO</h6>
             <ul class="ftr-links-sub">
               <li>+57322534986</li>
             </ul>
@@ -161,7 +206,7 @@
           <div id="ftr-email" class="ftr-email-form">
             <form id="ftrEmailForm" method="post" action="http://em.art.com/pub/rf">
               <div class="error">Introduce un Gmail correcto</div>
-              <input type="text" name="email_address_" id="ftrEmailInput" class="input" placeholder="Introduce tu Gmail" />
+              <input type="text" name="email_address_" id="ftrEmailInput" class="input" placeholder="Introduce tu Correo" />
             
               <input type="submit" class="button" value="ENVIAR" />
               <input type="hidden" name="country_iso2" value="">
@@ -178,23 +223,24 @@
         </div>
       
         <div class="footer-social">
-          <h6 class="ftr-hdr">SIGUEME</h6>
+          <h6 class="ftr-hdr">SIGUEME<br>EN</h6>
           <ul>
             <li>
-            
-                <img width="24" height="24" alt="Like us on Facebook" src="http://cache1.artprintimages.com/images/jump_pages/rebrand/footer/fb.png">
-              
-            </li>
-            <li>
-          
-                <img width="24" height="24" alt="Follow us on Google+" src="http://cache1.artprintimages.com/images/jump_pages/rebrand/footer/gplus.png">
-             
+              <a href="https://www.facebook.com/roymanjacniels.anez/">
+                <img class="img" width="24" height="24" alt="Like us on Facebook" src="https://edosoft.es/wp-content/uploads/2020/05/logo-facebook-blanco.png">
+              </a>
             </li>
       
             <li>
-             
-                <img width="24" height="24" alt="Follow us on Instagram" src="http://cache1.artprintimages.com/images/jump_pages/rebrand/footer/instagram-badge.png">
-             
+              <a href="https://www.instagram.com/royjam_a.m/">
+                <img class="img" width="24" height="24" alt="Follow us on Instagram" src="https://www.pngmart.com/files/21/Instagram-Logo-PNG-HD.png">
+              </a>
+            </li>
+
+            <li>
+              <a href="https://github.com/Royman56">
+                <img class="img" width="24" height="24" alt="Follow us on Instagram" src="https://trabajoenequipo.neocities.org/Imagenes/gitHub.png">
+              </a>
             </li>
           
           </ul>
@@ -229,5 +275,6 @@
 
 
 </body>
+</div>
 
 </html>
