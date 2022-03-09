@@ -196,13 +196,21 @@ a{
 
 .title-second{
   font-family: dylovastuff;
-  font-size: 50px;
+  font-size: 70px;
   color: #FFF;
     padding-top: 5%;
     margin-left: 0px;
 }
 
 .title-three{
+  font-family: dylovastuff;
+  font-size: 70px;
+  color: #FFF;
+    padding-top: 2%;
+    margin-left: 0px;
+}
+
+.title-skills{
   font-family: dylovastuff;
   font-size: 50px;
   color: #FFF;
@@ -956,6 +964,14 @@ html {
   transition: .2s;
 }
 
+.img-developer {
+  transition: .2s;
+}
+
+.img-developer2 {
+  transition: .2s;
+}
+
 .card-container .pro {
 	color: #231E39;
 	background-color: #FEBB0B;
@@ -982,8 +998,12 @@ html {
   transform: translateX(130px);
 }
 
-.img:hover {
-  transform: translateY(-2px);
+.img-developer:hover {
+  transform: translateX(-80px);
+}
+
+.img-developer2:hover {
+  transform: translateX(80px);
 }
 
 .descriptionpro{
@@ -1301,6 +1321,43 @@ a:link, a:visited, a:active {
 	border-top: 50px solid transparent;
 	border-right: 100px solid red;
 	border-bottom: 50px solid transparent;
+}
+
+progress{
+  width: 1000px;
+  height: 100px;
+}
+
+@media screen and (min-width: 829px) and (max-width: 1023px) { 
+  progress{
+    width: 800px;
+    height: 100px;
+  }
+
+}
+
+@media screen and (min-width: 600px) and (max-width: 828px) { 
+  progress{
+    width: 590px;
+    height: 100px;
+  }
+
+}
+
+@media screen and (min-width: 400px) and (max-width: 599px) { 
+  progress{
+    width: 390px;
+    height: 100px;
+  }
+
+}
+
+@media screen and (min-width: 300px) and (max-width: 399px) { 
+  progress{
+    width: 300px;
+    height: 100px;
+  }
+
 }
 
 

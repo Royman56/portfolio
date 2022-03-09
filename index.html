@@ -9,170 +9,208 @@
   <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
   <link rel="icon" href="images/logo.png" type="image/png" sizes="32x32">
   <script type="text/javascript" src="scripts.js"></script>
-  
+
 </head>
 <style type="text/css">
-  a:link, a:visited, a:active {
-      text-decoration:none;
+  a:link,
+  a:visited,
+  a:active {
+    text-decoration: none;
   }
 </style>
 
 <body>
   <div class="container">
-  <header class="header">
-    <div class="site-logo">
-      <img src="images/logo.png" alt="logo" width="22%">
-    </div>
-    <div class="overlay">
-    
-      <h1 id="first-page" class="t-stroke-shadow">UN VIAJE<br> PARA <br>DESCUBRIR</h1>
-   
-      <img id="box2" src="images/logo.png" alt="logo" class="logo">
+    <header class="header">
+      <div class="site-logo">
+        <img src="images/logo.png" alt="logo" width="22%">
+      </div>
+      <div class="overlay">
+
+        <h1 id="first-page" class="t-stroke-shadow">UN VIAJE<br> PARA <br>DESCUBRIR</h1>
+
+        <img id="box2" src="images/logo.png" alt="logo" class="logo">
+
+        <br>
+      </div>
+    </header>
+
+    <main>
+
+
+      <h1 class="title-three stroke-shadow" id="second-page">SOBRE MI</h1>
+
+      <ul class="cards-user">
+        <li>
+          <div class="card-container">
+            <img class="round" src="images/royman.jpeg" alt="user" width="220" />
+            <h2>Royman Añez</h2>
+            <h3 class="city">Bogotá</h3>
+            <p class="descriptionpro">Diseñador de interfaz de usuario <br />y desarrollador Full Stack </p>
+            <div class="buttons">
+              <button id="breathing-button" role="link" onclick="window.location='mailto: royman21mejias@gmail.com'"
+                class="primary">
+                Gmail
+              </button>
+              <button id="breathing-button" role="link"
+                onclick="window.location='https://api.whatsapp.com/send?phone=573222534986&text=Hola%20me%20gustaria%20saber%20mas%20informacion%20...'"
+                class="primary ghost">
+                Contacto
+              </button>
+            </div>
+            <div class="skills">
+              <h2>Skills</h2>
+              </br>
+              <ul>
+                <li>UI / UX</li>
+                <li>Front End Development</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>React</li>
+                <li>Node</li>
+              </ul>
+            </div>
+          </div>
+        </li>
+
+        <h4 class="text-2">Soy un desarrollador y diseñador </br> de páginas webs y aplicaciones </br> para android
+          especializado en el uso </br> de FrontEnd y Backend con amplios </br> conocimientos de UI y UX utilizando
+          </br> y reconociendo diferentes frameworks </br> como Bootstrap y React</h4>
+
+      </ul>
+
+      <article></article>
+
+      <h1 class="title-second stroke-shadow" id="second-page">HABILIDADES</h1>
+
+      <li>
+        <h1 class="title-skills">BACKEND:</h1>
+        <progress max="100" value="80"></progress>
+      </li>
+      <li>
+        <h1 class="title-skills">FRONTEND:</h1>
+        <progress max="100" value="77"></progress>
+      </li>
 
       <br>
-    </div>
-  </header>
+      <br>
+      <br>
+      <br>
+      <br>
 
-  <main>
-    
-    
-    <h1 class="title-three stroke-shadow" id="second-page">SOBRE MI</h1>
-
-    <ul class="cards-user">
       <li>
-        <div class="card-container">
-          <img class="round" src="images/royman.jpeg" alt="user" width="220" />
-          <h2>Royman Añez</h2>
-          <h3 class="city">Bogotá</h3>
-          <p class="descriptionpro">Diseñador de interfaz de usuario <br/>y desarrollador front-end </p>
-          <div class="buttons">
-            <button id="breathing-button" role="link"  onclick="window.location='mailto: royman21mejias@gmail.com'" class="primary">
-              Gmail
-            </button>
-            <button id="breathing-button" role="link"  onclick="window.location='https://api.whatsapp.com/send?phone=573222534986&text=Hola%20me%20gustaria%20saber%20mas%20informacion%20...'" class="primary ghost">
-              Contacto
-            </button>
-          </div>
-          <div class="skills">
-            <h2>Skills</h2>
-          </br>
-            <ul>
-              <li>UI / UX</li>
-              <li>Front End Development</li>
-              <li>HTML</li>
-              <li>CSS</li>
-              <li>JavaScript</li>
-              <li>React</li>
-              <li>Node</li>
-            </ul>
-          </div>
-        </div>
+        <img class="round img-developer" src="images/csss.png" alt="user" width="220" />
+      </li>
+      <br>
+      <li>
+        <img class="round img-developer2" src="images/html5.png" alt="user" width="220" />
+      </li>
+      <br>
+      <li>
+        <img class="round img-developer" src="images/js.png" alt="user" width="220" />
       </li>
 
-      <h4 class="text-2">Soy un desarrollador y diseñador </br> de páginas webs y aplicaciones </br> para android especializado en el uso </br> de FrontEnd y Backend con amplios </br> conocimientos de UI y UX utilizando </br> y reconociendo diferentes frameworks </br> como Bootstrap y React</h4>
+      <article></article>
 
-    </ul>
+      <h1 class="title-second stroke-shadow" id="third-page">PORTFOLIO</h1>
+      <ul class="cards">
+        <li>
+          <a href="https://mrtipsd.com/" class="card" target="_blank">
+            <img src="images/equipo.png" class="card__image" alt="" />
+            <div class="card__overlay">
+              <div class="card__header">
+                <svg class="card__arc" xmlns="http://www.w3.org/2000/svg">
+                  <path />
+                </svg>
+                <img class="card__thumb" src="images/equipo.png" alt="" />
+                <div class="card__header-text">
+                  <h3 class="card__title ">MRTIPS</h3>
 
-    <article></article>
-
-    <h1 class="title-second stroke-shadow" id="third-page">PORTFOLIO</h1>
-    <ul class="cards">
-      <li>
-        <a href="https://mrtipsd.com/" class="card">
-          <img src="images/equipo.png" class="card__image" alt="" />
-          <div class="card__overlay">
-            <div class="card__header">
-              <svg class="card__arc" xmlns="http://www.w3.org/2000/svg">
-                <path />
-              </svg>
-              <img class="card__thumb" src="images/equipo.png" alt="" />
-              <div class="card__header-text">
-                <h3 class="card__title ">MRTIPS</h3>
-                
+                </div>
               </div>
+              <p class="card__description">Landing Page desarrollada con html y css con un diseño responsive</p>
             </div>
-            <p class="card__description">Landing Page desarrollada con html y css con un diseño responsive</p>
-          </div>
-        </a>
-      </li>
+          </a>
+        </li>
 
-      <li>
-        <a href="https://royman56.github.io/persky_definity/" class="card">
-          <img src="images/persky.png" class="card__image" alt="" />
-          <div class="card__overlay">
-            <div class="card__header">
-              <svg class="card__arc" xmlns="http://www.w3.org/2000/svg">
-                <path />
-              </svg>
-              <img class="card__thumb" src="images/persky.png" alt="" />
-              <div class="card__header-text">
-                <h3 class="card__title">PERSKY</h3>
+        <li>
+          <a href="https://royman56.github.io/persky_definity/" class="card" target="_blank">
+            <img src="images/persky.png" class="card__image" alt="" />
+            <div class="card__overlay">
+              <div class="card__header">
+                <svg class="card__arc" xmlns="http://www.w3.org/2000/svg">
+                  <path />
+                </svg>
+                <img class="card__thumb" src="images/persky.png" alt="" />
+                <div class="card__header-text">
+                  <h3 class="card__title">PERSKY</h3>
+                </div>
               </div>
+              <p class="card__description">Ecommerce desarrollado con React JS conectado a la API de Whatssap</p>
             </div>
-            <p class="card__description">Ecommerce desarrollado con React JS conectado a la API de Whatssap</p>
-          </div>
-        </a>
-      </li>
+          </a>
+        </li>
 
-      <li>
-        <a href="https://royman56.github.io/game_tetris/" class="card">
-          <img src="images/tetris.jpg" class="card__image" alt="" />
-          <div class="card__overlay">
-            <div class="card__header">
-              <svg class="card__arc" xmlns="http://www.w3.org/2000/svg">
-                <path />
-              </svg>
-              <img class="card__thumb" src="images/tetris.jpg" alt="" />
-              <div class="card__header-text">
-                <h3 class="card__title">TETRIS</h3>
+        <li>
+          <a href="https://royman56.github.io/game_tetris/" class="card" target="_blank">
+            <img src="images/tetris.jpg" class="card__image" alt="" />
+            <div class="card__overlay">
+              <div class="card__header">
+                <svg class="card__arc" xmlns="http://www.w3.org/2000/svg">
+                  <path />
+                </svg>
+                <img class="card__thumb" src="images/tetris.jpg" alt="" />
+                <div class="card__header-text">
+                  <h3 class="card__title">TETRIS</h3>
+                </div>
               </div>
+              <p class="card__description">Juego desarrollado con JavaScript HTML y CSS</p>
             </div>
-            <p class="card__description">Juego desarrollado con JavaScript HTML y CSS</p>
-          </div>
-        </a>
-      </li>
+          </a>
+        </li>
 
-      <li>
-        <a href="https://royman56.github.io/juego_js/" class="card">
-          <img src="images/ahorcado.jpg" class="card__image" alt="" />
-          <div class="card__overlay">
-            <div class="card__header">
-              <svg class="card__arc" xmlns="http://www.w3.org/2000/svg">
-                <path />
-              </svg>
-              <img class="card__thumb" src="images/ahorcado.jpg" alt="" />
-              <div class="card__header-text">
-                <h3 class="card__title">JUEGO DEL AHORCADO</h3>
+        <li>
+          <a href="https://royman56.github.io/juego_js/" class="card" target="_blank">
+            <img src="images/ahorcado.jpg" class="card__image" alt="" />
+            <div class="card__overlay">
+              <div class="card__header">
+                <svg class="card__arc" xmlns="http://www.w3.org/2000/svg">
+                  <path />
+                </svg>
+                <img class="card__thumb" src="images/ahorcado.jpg" alt="" />
+                <div class="card__header-text">
+                  <h3 class="card__title">JUEGO DEL AHORCADO</h3>
+                </div>
               </div>
+              <p class="card__description">Juego desarrollado con JavaScript HTML y CSS</p>
             </div>
-            <p class="card__description">Juego desarrollado con JavaScript HTML y CSS</p>
-          </div>
-        </a>
-      </li>
+          </a>
+        </li>
 
-      <li>
-        <a href="https://play.google.com/store/apps/details?id=com.vitzi.topups" class="card">
-          <img src="images/diprepay1.png" class="card__image" alt="" />
-          <div class="card__overlay">
-            <div class="card__header">
-              <svg class="card__arc" xmlns="http://www.w3.org/2000/svg">
-                <path />
-              </svg>
-              <img class="card__thumb" src="images/diprepay1.png" alt="" />
-              <div class="card__header-text">
-                <h3 class="card__title">DIPREPAY</h3>
+        <li>
+          <a href="https://play.google.com/store/apps/details?id=com.vitzi.topups" class="card" target="_blank">
+            <img src="images/diprepay1.png" class="card__image" alt="" />
+            <div class="card__overlay">
+              <div class="card__header">
+                <svg class="card__arc" xmlns="http://www.w3.org/2000/svg">
+                  <path />
+                </svg>
+                <img class="card__thumb" src="images/diprepay1.png" alt="" />
+                <div class="card__header-text">
+                  <h3 class="card__title">DIPREPAY</h3>
+                </div>
               </div>
+              <p class="card__description">Aplicación para Android que hace uso de Frontend y Backend</p>
             </div>
-            <p class="card__description">Aplicación para Android que hace uso de Frontend y Backend</p>
-          </div>
-        </a>
-      </li>
+          </a>
+        </li>
 
-    </ul>
-  
-  </main>
-  <footer>
- 
+      </ul>
+
+    </main>
+    <footer>
+
       <div class="footer-custom" id="four-page">
         <div class="footer-lists">
           <div class="footer-list-wrap">
@@ -186,7 +224,7 @@
               <li>Bogotá</li>
             </ul>
           </div>
-          
+
           <div class="footer-list-wrap">
             <h6 class="ftr-hdr">SERVICIOS</h6>
             <ul class="ftr-links-sub">
@@ -195,19 +233,20 @@
               <li>UI &amp; UX</li>
               <li>DISEÑO PAGINA WEB</li>
               <li>DESARROLLO DE APLICACIONES ANDROID</li>
-            
+
             </ul>
           </div>
-      
+
         </div>
-       
+
         <div class="footer-email">
           <h6 class="ftr-hdr">PARA MAS INFORMACION DEJA TU CORREO</h6>
           <div id="ftr-email" class="ftr-email-form">
             <form id="ftrEmailForm" method="post" action="http://em.art.com/pub/rf">
               <div class="error">Introduce un Gmail correcto</div>
-              <input type="text" name="email_address_" id="ftrEmailInput" class="input" placeholder="Introduce tu Correo" />
-            
+              <input type="text" name="email_address_" id="ftrEmailInput" class="input"
+                placeholder="Introduce tu Correo" />
+
               <input type="submit" class="button" value="ENVIAR" />
               <input type="hidden" name="country_iso2" value="">
               <input type="hidden" name="language_iso2" value="en">
@@ -215,69 +254,74 @@
               <input type="hidden" name="email_acq_source" value="01-000001">
               <input type="hidden" name="email_acq_date" value="" id="ftr-email-date">
               <input type="hidden" name="brand_id" value="ART">
-              <input type="hidden" name="_ri_" value="X0Gzc2X%3DWQpglLjHJlYQGnp51yrMf2qXdC9tjU8pzgMtwfYzaVwjpnpgHlpgneHmgJoXX0Gzc2X%3DWQpglLjHJlYQGnyLSq2fzdkuzdzglHMsUhgeNzaSgkk">
+              <input type="hidden" name="_ri_"
+                value="X0Gzc2X%3DWQpglLjHJlYQGnp51yrMf2qXdC9tjU8pzgMtwfYzaVwjpnpgHlpgneHmgJoXX0Gzc2X%3DWQpglLjHJlYQGnyLSq2fzdkuzdzglHMsUhgeNzaSgkk">
             </form>
           </div>
-         
+
           <div class="ftr-email-privacy-policy"></div>
         </div>
-      
+
         <div class="footer-social">
           <h6 class="ftr-hdr">SIGUEME<br>EN</h6>
           <ul>
             <li>
-              <a href="https://www.facebook.com/roymanjacniels.anez/">
-                <img class="img" width="24" height="24" alt="Like us on Facebook" src="https://edosoft.es/wp-content/uploads/2020/05/logo-facebook-blanco.png">
-              </a>
-            </li>
-      
-            <li>
-              <a href="https://www.instagram.com/royjam_a.m/">
-                <img class="img" width="24" height="24" alt="Follow us on Instagram" src="https://www.pngmart.com/files/21/Instagram-Logo-PNG-HD.png">
+              <a href="https://www.facebook.com/roymanjacniels.anez/" target="_blank">
+                <img class="img" width="24" height="24" alt="Like us on Facebook"
+                  src="https://edosoft.es/wp-content/uploads/2020/05/logo-facebook-blanco.png">
               </a>
             </li>
 
             <li>
-              <a href="https://github.com/Royman56">
-                <img class="img" width="24" height="24" alt="Follow us on Instagram" src="https://trabajoenequipo.neocities.org/Imagenes/gitHub.png">
+              <a href="https://www.instagram.com/royjam_a.m/" target="_blank">
+                <img class="img" width="24" height="24" alt="Follow us on Instagram"
+                  src="https://www.pngmart.com/files/21/Instagram-Logo-PNG-HD.png">
               </a>
             </li>
 
             <li>
-              <a href="https://www.linkedin.com/in/royman-a%C3%B1ez-mejias-5363a41ab/">
-                <img class="img" width="24" height="24" alt="Follow us on Instagram" src="https://static.wixstatic.com/media/7528824071724d12a3e6c31eee0b40d4.png/v1/fill/w_196,h_196,al_c,q_85,usm_0.66_1.00_0.01/7528824071724d12a3e6c31eee0b40d4.webp">
+              <a href="https://github.com/Royman56" target="_blank">
+                <img class="img" width="24" height="24" alt="Follow us on Instagram"
+                  src="https://trabajoenequipo.neocities.org/Imagenes/gitHub.png">
               </a>
             </li>
-          
+
+            <li>
+              <a href="https://www.linkedin.com/in/royman-a%C3%B1ez-mejias-5363a41ab/" target="_blank">
+                <img class="img" width="24" height="24" alt="Follow us on Instagram"
+                  src="https://static.wixstatic.com/media/7528824071724d12a3e6c31eee0b40d4.png/v1/fill/w_196,h_196,al_c,q_85,usm_0.66_1.00_0.01/7528824071724d12a3e6c31eee0b40d4.webp">
+              </a>
+            </li>
+
           </ul>
         </div>
       </div>
 
- 
-  </footer>
 
-  <input type="checkbox" id="ham-menu">
-  <label for="ham-menu">
-    <div class="hide-des">
-      <span class="menu-line"></span>
-      <span class="menu-line"></span>
-      <span class="menu-line"></span>
-      <span class="menu-line"></span>
-      <span class="menu-line"></span>
-      <span class="menu-line"></span>
+    </footer>
+
+    <input type="checkbox" id="ham-menu">
+    <label for="ham-menu">
+      <div class="hide-des">
+        <span class="menu-line"></span>
+        <span class="menu-line"></span>
+        <span class="menu-line"></span>
+        <span class="menu-line"></span>
+        <span class="menu-line"></span>
+        <span class="menu-line"></span>
+      </div>
+
+    </label>
+    <div class="full-page-green"></div>
+    <div class="ham-menu">
+      <ul class="centre-text bold-text">
+        <li class="stroke-shadow"><a href="#first-page">INICIO</a></li>
+        <li class="stroke-shadow"><a href="#second-page">SOBRE MI</a></li>
+        <li class="stroke-shadow"><a href="#third-page">PORTFOLIO</a></li>
+        <li class="stroke-shadow"><a href="#four-page">CONTACTO</a></li>
+
+      </ul>
     </div>
-
-  </label>
-  <div class="full-page-green"></div>
-  <div class="ham-menu">
-    <ul class="centre-text bold-text">
-      <li class="stroke-shadow"><a href="#first-page">INICIO</a></li>
-      <li class="stroke-shadow"><a href="#second-page">SOBRE MI</a></li>
-      <li class="stroke-shadow"><a href="#third-page">PORTFOLIO</a></li>
-      <li class="stroke-shadow"><a href="#four-page">CONTACTO</a></li>
-
-    </ul>
-  </div>
 
 
 </body>
